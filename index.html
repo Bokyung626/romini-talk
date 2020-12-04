@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Romini Talk</title>
+
+  </head>
+  <body>
+    <div class="status-bar"> <!--상태바-->
+      <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+        <path
+          d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+        />
+      </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Romini Talk</h1>
+      <p class="welcome-header__text">If you have a Romini Account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" required type="text" placeholder="Email or phone number"/>
+      <input name="password" required type="password" placeholder="Password"/>
+      <input type="submit" value="Log in"/>
+      <a href="#">Find Romini Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/3af5ef0a19.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
