@@ -48,6 +48,7 @@
 
 #login-form input[type="submit"] {
   background-color: var(--white);
+  background-color: #f8e800;
   cursor: pointer;
   font-size: 14px;
   padding: 20px 0px;

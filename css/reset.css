@@ -126,3 +126,8 @@ table {
 input:focus {
   outline: none;
 }
+
+a {
+  color: inherit; /*컬러를 부모로부터 상속받음*/
+  text-decoration: none; /*밑줄..*/
+}
