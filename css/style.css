@@ -5,8 +5,12 @@
 @import "login.css";
 @import "nav-bar.css";
 @import "screen-header.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
 
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }

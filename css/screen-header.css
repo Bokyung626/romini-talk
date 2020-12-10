@@ -1,0 +1,23 @@
+.screen-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  /*padding이 있으면 레이아웃이 밀리므로 반드시 사용*/
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-top: 25px;
+  background-color: rgb(204, 204, 204);
+}
+/* 컴포넌트를 클래스로 구현 해놓으면 재사용 할 수있어서 유용하다.*/
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
